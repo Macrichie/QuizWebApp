@@ -2,8 +2,9 @@
 var mongoose = require('mongoose');
 var validator = require('mongoose-unique-validator');
 var nodemailer = require('nodemailer');
+var connection = require('./connection');
 // mongoose.connect('mongodb://localhost/quiztest');
-mongoose.connect('mongodb://adminquiz:adminquiz@ds147497.mlab.com:47497/quizproject',function (err,data){
+mongoose.connect(connection.connectionString,function (err,data){
     if(!err){
         console.log("we are connected to mongo.");
     }
