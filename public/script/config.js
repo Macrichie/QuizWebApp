@@ -76,7 +76,7 @@ angular.module("quizApp")
 
 })
 
-.constant('heroku','http://localhost:8080')
+.constant('heroku','https://teamsixquizwebapp.herokuapp.com')
 
 .run(function($rootScope,$state){
     $rootScope.$on("$stateChangeStart",function(event, toState){
