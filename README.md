@@ -13,6 +13,5 @@
 - Boot Strap
 - Type Script
 
-**This Simple Mean Stack Quiz App Design by Me. In Order to Get Quizes user Must login. To access Admin panal user Must be Admin..**
 
 
